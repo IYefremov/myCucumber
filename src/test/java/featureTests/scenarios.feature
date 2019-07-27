@@ -6,11 +6,11 @@
 Feature: annotation
 
   Scenario: Verify the search functionality is working
-  Given I am go to the home page
-  When I search goods with name "Blouse"
-  Then I am close the browser page
+    Given I am go to the home page
+    When I search goods with name "Blouse"
+    Then I am close the browser page
 
-    Scenario: User can reach login page
-      Given I am go to the home page
-      When I am on the contact_us page
-      Then I am close the browser page
+  Scenario: User can reach login page
+    Given I am go to the home page
+    When I am on the contact_us page
+    Then I am close the browser page
